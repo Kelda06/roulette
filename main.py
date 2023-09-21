@@ -1,7 +1,7 @@
 import random
-repeat = "yes"
+repeat = "Yes bcs I'am gambler"
 cash = int(input("Enter the amount with which you will bet in roulette: "))
-while repeat == "yes":
+while repeat == "Yes bcs I'am gambler":
     
 
     print("Your current available amount is: ")
@@ -34,7 +34,7 @@ while repeat == "yes":
         print("You have lucky... Your current ammount is: ")
         print(cash)
     else:
-        money = cash - s_a
+        cash = cash - s_a
         print("You lost your bet looser! Your current ammount is: ")
         print(cash)
 
